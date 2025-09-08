@@ -1,2 +1,16 @@
 # MonitorGGWrite
-Monitor GameGuardian memory writes.
+Monitors GameGuardian memory writes.
+
+For Chinese instructions, click here (README.zh-CN.md)
+
+## Instructions
+1. Rename lib5.so in the GameGuardian directory to lib5.so.orig
+2. Move lib5.so and libHookWrite.so from the project repository to the /data/user/0/com.XXXX/files/GG-XXXX/ directory
+3. Reopen GameGuardian to permanently use the Hook
+## Compile the project
+- Compile using camke
+```cpp
+mkdir build && cd build
+cmake ..
+make -j $(nproc)
+```
