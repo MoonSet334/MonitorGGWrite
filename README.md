@@ -1,7 +1,7 @@
 # MonitorGGWrite
 Monitors GameGuardian memory writes.
 
-For Chinese instructions, click here (README.zh-CN.md)
+For Chinese instructions, click here [README.zh-CN.md]
 
 ## Instructions
 1. Rename lib5.so in the GameGuardian directory to lib5.so.orig
