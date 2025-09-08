@@ -1,7 +1,7 @@
 # MonitorGGWrite
 监控 GameGuardian 内存写入
 
-英文说明请点击[此处](README.md)
+For English instructions please click[](README.md)
 
 ## 说明
 1. 将 GameGuardian 目录中的 lib5.so 重命名为 lib5.so.orig
@@ -14,3 +14,4 @@ mkdir build \&\& cd build
 cmake ..
 make -j $(nproc)
 ```
+
