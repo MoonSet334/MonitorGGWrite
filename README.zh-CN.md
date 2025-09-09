@@ -10,10 +10,11 @@ For English instructions please click [here](README.md)
 ## 编译项目
 - 使用 camke 编译
 ```cpp
-mkdir build \&\& cd build
+mkdir build && cd build
 cmake ..
 make -j$(nproc)
 ```
+
 
 
 
